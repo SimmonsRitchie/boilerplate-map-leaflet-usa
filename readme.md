@@ -4,7 +4,9 @@ This is a boilerplate USA map with colored markers and popups created with leafl
 
 Here's a working [example](https://s3.amazonaws.com/embed-maps/boilerplate-usa1/index.html).
 
-The map includes a button that allows users to instantly zoom to their state based on their current location. This feature will not work if a user has disabled geolocation in their browser.
+You can view a simplified version of this map embedded in a news article [here](https://www.pennlive.com/news/2019/06/these-16-nursing-pa-homes-are-among-the-worst-in-the-nation-federal-list-reveals.html).
+
+The map includes a button that allows users to instantly zoom to their state based on their current location. Note: This feature will not work if a user has disabled geolocation in their browser.
 
 ### Embed
 
