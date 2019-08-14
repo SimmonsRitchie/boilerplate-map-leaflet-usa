@@ -1,0 +1,33 @@
+// LEGEND FOR GRAPHIC
+
+// SVG CANVAS
+.legend__svg {
+  width: 300px;
+  height: 50px;
+}
+
+// HTML CONTAINER
+.legend {
+  max-width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.legend__labelGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+// LEGEND LABELS
+.legend__label {
+  font-size: $font-size-x-small;
+  padding-left: 0.4em;
+
+  @media (min-width: $mid-breakpoint) {
+    font-size: $font-size-small;
+  }
+}
+
+

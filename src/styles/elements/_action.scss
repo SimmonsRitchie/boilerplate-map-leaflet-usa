@@ -1,0 +1,26 @@
+// ACTION BUTTONS FOR MAP
+
+.action__box {
+  background: $background-light-accent;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: row;
+  padding: $s-size;
+  color: $text-main;
+  // font-size: $font-size-small;
+  font-size: $font-size-x-small;
+}
+
+.action__view {
+  padding-right: $s-size;
+  font-weight: 400;
+}
+
+#action__geolocation {
+  padding-right: $s-size;
+  @include button-hover
+}
+
+#action__full-map {
+  @include button-hover
+}

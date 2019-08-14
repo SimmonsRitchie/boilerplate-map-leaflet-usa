@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- 
+This graphic was coded and designed by Daniel Simmons-Ritchie for the Patriot-News/PennLive.com 
+Contact him at: simmons-ritchie@pennlive.com
+-->
+<html>
+  <head>
+    <meta charset="UTF8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <title>Special Focus Facilities</title>
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <!-- CSS Stylesheet-->
+    <!-- Leaflet CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="./dist/styles.css" />
+  </head>
+  <body>
+    <div class="container__outer">
+      <div class="container__header">
+        <h3 class="titles__title">
+          America's most troubled nursing homes
+        </h3>
+        <p class="titles__subtitle">
+          The nursing homes below have been deemed 'special focus facilities' or candidates for that status due to consistently poor care.
+        </p>
+      </div>
+      <div class="container__graphic">
+        <div class="container__legend">
+        </div>
+        <div class="graphic__inner">
+          <div id="container__loader">
+            <img src="images/loader1.gif">
+          </div>
+          <div id="container__modal">
+            <div id="modal">
+              <div id="modal__close">x</div>
+              <p id="modal__text"></p>
+              <div id="modal__loader-container">
+              <img src="images/modal-loader3.svg">
+              </div>
+            </div>
+          </div>
+          <div id="graphic__map"></div>
+        </div>
+        <div class="container__action">
+          <div class="action__box">
+            <span class="action__view">JUMP TO:</span>
+            <div id="action__geolocation">Your state</div>
+            <div id="action__full-map">Full map</span>
+          </div>
+        </div>
+      </div>
+      <div class="container__footnote">
+        <p class="titles__footnote"><b>Source:</b> Centers for Medicare and Medicaid Services, April, 2019</p>
+        <!-- <p class="titles__footnote"><b>Note:</b> If necessary, include a footnote here.</p> -->
+        <p class="titles__footnote">Graphic by Daniel Simmons-Ritchie, PennLive.com</p>
+      </div>
+      <script
+        type="text/javascript"
+        src="https://pym.nprapps.org/pym.v1.min.js"
+      ></script>
+      <script src="./dist/bundle.js"></script>
+      <script>
+        var pymChild = new pym.Child();
+      </script>
+    </div>
+  </body>
+</html>

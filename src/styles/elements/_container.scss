@@ -1,0 +1,96 @@
+// CONTAINER DIVS
+// Change the CSS here to alter padding, etc.
+
+// OUTER CONTAINER
+// contains all content
+.container__outer {
+  max-width: 650px;
+  margin: 0 auto;
+  // background: rgba(yellow, 0.33);
+}
+
+// HEADER CONTAINER
+.container__header {
+  padding: $s-size $xs-size $s-size $xs-size;
+  
+  @media (min-width: $mid-breakpoint) {
+    padding: $s-size $s-size $s-size $s-size;
+  }
+}
+
+// CONTAINER DROPDOWN
+.container__dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: $s-size;
+}
+
+// CONTAINER LEGEND
+.container__legend {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // justify-content: space-evenly;
+  padding: 0 0 $s-size 0;
+  // align-items: center;
+
+  g:nth-child(n+1) {
+    padding-right: $s-size;
+
+  }
+}
+
+// CONTAINER GRAPHIC
+.container__graphic {
+  // background: rgba(red, 0.33);
+  padding: 0 $xs-size $xs-size 0;
+
+  @media (min-width: $mid-breakpoint) {
+    padding: 0 $s-size $s-size $s-size;
+  }
+}
+
+// CONTAINER ACTION
+.container__action {
+  padding: $s-size 0 $s-size 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: $font-size-small;
+}
+
+// CONTAINER LOADER
+#container__loader {
+  display: flex;
+  z-index: 1400;
+  margin: auto;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+// CONTAINER MODAL
+#container__modal {
+  display: none;
+  z-index: 1500;
+  margin: auto;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  top: 0; left: 0; bottom: 0; right: 0;
+  // visibility: hidden;
+}
+
+// FOOTNOTE CONTAINER
+.container__footnote {
+  padding: 0 $xs-size $xs-size 0;
+
+  @media (min-width: $mid-breakpoint) {
+    padding: 0 $s-size $s-size $s-size;
+  }
+}

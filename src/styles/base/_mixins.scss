@@ -1,0 +1,6 @@
+@mixin button-hover {    
+    &:hover {
+      color: $orange;
+      cursor: pointer;
+    }
+  }
