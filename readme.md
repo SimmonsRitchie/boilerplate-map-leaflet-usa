@@ -10,9 +10,9 @@ The map includes a button that allows users to instantly zoom to their state bas
 
 ### Embed
 
-This map is designed to be displayed in an iframe created by [pym.js](https://github.com/nprapps/pym.js/). Pym ensures that the height of the iframe updates if the table does.
+This map is designed to be embeddable using [pym.js](https://github.com/nprapps/pym.js/). Pym displays the map in an iframe and ensures that the height of the iframe updates as needed.
 
-Here is an example of an embed script that uses pym to display this datatable:
+Here is an example of an embed script that uses pym to display the map:
 
 ```
 <div id="container"></div>
