@@ -1,6 +1,6 @@
-### Boilerplate Leaflet USA map - with markers
+### Boilerplate Leaflet US map - with markers nad popups
 
-This is a boilerplate USA map with colored markers and popups created with leaflet and written in vanilla JS. This map is designed to be embedded as an iframe.
+This is a boilerplate US map with colored markers and popups created with leaflet and written in vanilla JS. This map is designed to be embedded as an iframe.
 
 Here's a working [example](https://s3.amazonaws.com/embed-maps/boilerplate-usa1/index.html).
 
